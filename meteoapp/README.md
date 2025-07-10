@@ -75,7 +75,7 @@ L'unico prerequisito è avere **Docker e Docker Compose** installati sul tuo sis
 Docker costruirà l'immagine e avvierà l'applicazione. La prima volta potrebbe richiedere alcuni minuti.
 
 4.  **Apri il browser e vai a:**
-    `http://localhost:8081`
+    `http://localhost:8080`
 
 #### Suggerimenti Utili
 
