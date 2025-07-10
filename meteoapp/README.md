@@ -8,7 +8,7 @@ Applicazione web sviluppata in Java e Spring Boot per visualizzare i dati meteor
 
 L'applicazione è attiva e funzionante su Railway. Provala subito!
 
-**➡️ (https://metro.proxy.rlwy.net:28101)**
+**➡️ [Link alla Demo](https://metro.proxy.rlwy.net:28101)**
 
 ---
 
