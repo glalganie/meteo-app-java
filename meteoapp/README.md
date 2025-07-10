@@ -40,48 +40,57 @@ Applicazione web sviluppata in Java e Spring Boot per visualizzare i dati meteor
 -   **Frontend**: HTML5, CSS3, JavaScript
 -   **Template Engine**: Thymeleaf
 -   **Libreria Grafici**: Chart.js
--   **Build Tool**: Maven
--   **Containerizzazione**: Docker
+-   **Build Tool**: Maven (usato internamente da Docker durante il build)
+-   **Containerizzazione**: Docker & Docker Compose
 -   **Piattaforma di Deploy**: Railway
-
 ---
 
-### ⚙️ Come Eseguire in Locale
+### 🚀 Avvio Rapido con Docker Compose
+
+Questo progetto è pensato per essere eseguito con Docker, eliminando la necessità di installare Java o Maven localmente.
 
 #### Prerequisiti
 
--   JDK 17 o superiore
--   Maven 3.8+
--   Docker (per l'esecuzione tramite container)
+L'unico prerequisito è avere **Docker e Docker Compose** installati sul tuo sistema.
+*   [Installa Docker Desktop](https://www.docker.com/products/docker-desktop/) (include già Docker Compose).
 
-#### Esecuzione con Maven
+#### Istruzioni per l'Avvio
 
-1.  Clona il repository:
+1.  **Clona il repository:**
     ```bash
     git clone https://github.com/glalganie/meteo-app-java.git
+    ```
+
+2.  **Entra nella cartella del progetto:**
+    ```bash
     cd meteo-app-java
     ```
 
-2.  Esegui l'applicazione:
+3.  **Avvia l'applicazione con un solo comando:**
     ```bash
-    ./mvnw spring-boot:run
+    docker compose up
+    ```
+    *(Nota: sulle versioni più vecchie di Docker potresti dover usare `docker-compose up` con il trattino)*
+
+Docker costruirà l'immagine e avvierà l'applicazione. La prima volta potrebbe richiedere alcuni minuti.
+
+4.  **Apri il browser e vai a:**
+    `http://localhost:8080`
+
+#### Suggerimenti Utili
+
+*   **Per forzare la ricostruzione dell'immagine** dopo aver modificato il codice Java, usa il flag `--build`:
+    ```bash
+    docker compose up --build
+    ```
+*   **Per fermare l'applicazione** e rimuovere il container, premi `Ctrl+C` nel terminale e poi digita:
+    ```bash
+    docker compose down
     ```
 
-3.  Apri il browser e vai a `http://localhost:8080`.
+---
 
-#### Esecuzione con Docker
 
-1.  Costruisci l'immagine Docker:
-    ```bash
-    docker build -t meteo-app .
-    ```
-
-2.  Esegui il container:
-    ```bash
-    docker run -p 8080:8080 meteo-app
-    ```
-
-3.  Apri il browser e vai a `http://localhost:8080`.
 
 ## 📖 Interpretazione dei Dati
 
