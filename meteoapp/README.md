@@ -36,7 +36,7 @@ Applicazione web sviluppata in Java e Spring Boot per visualizzare i dati meteor
 
 1.  Clona il repository:
     ```bash
-    git clone https://github.com/TUO_USERNAME/meteoapp.git
+    git clone https://github.com/glalganie/meteo-app-java.git
     cd meteoapp
     ```
 
