@@ -92,4 +92,4 @@ I dati sono forniti da Open-Meteo e sono interpretati come segue:
 -   **Precipitazioni**: Somma delle precipitazioni giornaliere.
 -   **Nuvolosità**: Percentuale media di cielo coperto da nuvole.
 -   **Pressione**: Pressione media a livello della superficie.
--   **Allerte Meteo**: Generate interpretando i [codici meteo WMO](https://www.nodc.noaa.gov/archive/arc0021/0002199/1.1/data/0-data/HTML/WMO-CODE/WMO4677.HTM) forniti dall'API. L'implementazione attuale segnala solo condizioni di pioggia intensa o temporali.
+-   **Allerte Meteo**: Generate interpretando i [codici meteo WMO](https://www.datameteo.com/meteo/dati_meteo_attuali.html) forniti dall'API. L'implementazione attuale segnala solo condizioni di pioggia intensa o temporali.
