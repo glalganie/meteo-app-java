@@ -1,0 +1,19 @@
+# Specifica la versione della sintassi di Docker Compose
+version: '3.8'
+
+# Definizione dei servizi (i container) che compongono la nostra applicazione
+services:
+  # Nome del nostro servizio (puoi chiamarlo come vuoi)
+  app:
+    # Indica a Docker Compose di costruire un'immagine usando le istruzioni
+    # presenti nel Dockerfile che si trova nella cartella corrente ('.')
+    build: .
+    # Assegna un nome specifico al container per una facile identificazione
+    container_name: meteo-app-container
+    # Mappa la porta 8080 del nostro computer (host) alla porta 8080 
+    # dell'applicazione all'interno del container.
+    ports:
+      - "8080:8080"
+    # Politica di riavvio: riavvia il container automaticamente se si blocca,
+    # a meno che non sia stato fermato manualmente.
+    restart: unless-stopped
