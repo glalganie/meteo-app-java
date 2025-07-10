@@ -13,7 +13,7 @@ services:
     # Mappa la porta 8080 del nostro computer (host) alla porta 8080 
     # dell'applicazione all'interno del container.
     ports:
-      - "8080:8081"
+      - "8080:8080"
     # Politica di riavvio: riavvia il container automaticamente se si blocca,
     # a meno che non sia stato fermato manualmente.
     restart: unless-stopped
