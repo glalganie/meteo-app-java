@@ -1,4 +1,4 @@
-# Meteo Web App <img width="1000" height="1000" alt="image" src="https://github.com/user-attachments/assets/101266f0-1bf7-491a-ac0f-c0307bd3233e" />
+# 🌦️ Meteo Web App
 
 
 
