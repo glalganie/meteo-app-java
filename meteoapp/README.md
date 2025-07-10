@@ -1,6 +1,6 @@
 # Meteo Web App
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://metro.proxy.rlwy.net:28101)
+[![Deploy on Railway](https://railway.app/button.svg)]([https://metro.proxy.rlwy.net:28101](http://metro.proxy.rlwy.net:28101/))
 
 Applicazione web sviluppata in Java e Spring Boot per visualizzare i dati meteorologici degli ultimi 14 giorni per diverse località italiane. I dati vengono recuperati tramite le API di [Open-Meteo](https://open-meteo.com/) e visualizzati in grafici interattivi.
 
@@ -8,7 +8,7 @@ Applicazione web sviluppata in Java e Spring Boot per visualizzare i dati meteor
 
 L'applicazione è attiva e funzionante su Railway. Provala subito!
 
-**➡️ [Link alla Demo](https://metro.proxy.rlwy.net:28101)**
+**➡️ [Link alla Demo]([https://metro.proxy.rlwy.net:28101](http://metro.proxy.rlwy.net:28101/))**
 
 ---
 
