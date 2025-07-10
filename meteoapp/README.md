@@ -1,11 +1,12 @@
-# Meteo Web App
+# Meteo Web App <img width="1000" height="1000" alt="image" src="https://github.com/user-attachments/assets/101266f0-1bf7-491a-ac0f-c0307bd3233e" />
+
 
 
 Applicazione web sviluppata in Java e Spring Boot per visualizzare i dati meteorologici degli ultimi 14 giorni per diverse località italiane. I dati vengono recuperati tramite le API di [Open-Meteo](https://open-meteo.com/) e visualizzati in grafici interattivi.
 
 ### 🌐 Demo Live
 
-➡️  L'applicazione è attiva e funzionante su Railway. Provala subito!
+ L'applicazione è attiva e funzionante su Railway. Provala subito!
 
 
 [![Deploy on Railway](https://railway.app/button.svg)](http://metro.proxy.rlwy.net:28101/)
