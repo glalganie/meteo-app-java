@@ -1,67 +1,87 @@
 # Meteo Web App
 
+[![Deploy on Railway](https://railway.app/button.svg)](https://L'URL_DELLA_TUA_APP_SU_RAILWAY)
+
 Applicazione web sviluppata in Java e Spring Boot per visualizzare i dati meteorologici degli ultimi 14 giorni per diverse località italiane. I dati vengono recuperati tramite le API di [Open-Meteo](https://open-meteo.com/) e visualizzati in grafici interattivi.
 
-## ✨ Funzionalità
+### 🌐 Demo Live
 
--   Selezione di una località da una lista predefinita.
+L'applicazione è attiva e funzionante su Railway. Provala subito!
+
+**➡️ [Link alla Demo](https://L'URL_DELLA_TUA_APP_SU_RAILWAY)**
+
+---
+
+### ✨ Screenshot
+
+
+ <img width="1171" height="977" alt="image" src="https://github.com/user-attachments/assets/339e6fa7-1851-4274-ba70-46bc84cc26c2" />
+
+---
+
+### 🚀 Funzionalità
+
+-   Selezione di una località da una lista predefinita (Roma, Milano, Napoli, etc.).
 -   Visualizzazione dei dati storici degli ultimi 14 giorni.
--   Grafici a barre interattivi per i seguenti parametri:
-    -   Temperatura Massima (`°C`)
-    -   Vento Massimo (`km/h`)
-    -   Precipitazioni totali (`mm`)
-    -   Nuvolosità media (`%`)
-    -   Pressione atmosferica media (`hPa`)
--   Notifica di eventuali allerte meteo per la giornata corrente.
--   Progetto interamente containerizzato con Docker.
+-   Grafici a barre interattivi per:
+    -   🌡️ Temperatura Massima (°C)
+    -   💨 Vento Massimo (km/h)
+    -   💧 Precipitazioni (mm)
+    -   ☁️ Nuvolosità (%)
+    -    pressurapressione (hPa)
+-   🔔 Notifica di allerte meteo in tempo reale per la località selezionata.
+-   Progetto containerizzato con Docker per un facile deploy.
 
-## 🛠️ Stack Tecnologico
+---
+
+### 🛠️ Stack Tecnologico
 
 -   **Backend**: Java 17, Spring Boot 3
--   **Frontend**: HTML5, CSS3, JavaScript (ES6)
+-   **Frontend**: HTML5, CSS3, JavaScript
 -   **Template Engine**: Thymeleaf
 -   **Libreria Grafici**: Chart.js
 -   **Build Tool**: Maven
 -   **Containerizzazione**: Docker
+-   **Piattaforma di Deploy**: Railway
 
-## 🚀 Come Eseguire
+---
 
-### Prerequisiti
+### ⚙️ Come Eseguire in Locale
+
+#### Prerequisiti
 
 -   JDK 17 o superiore
--   Maven 3.6+
+-   Maven 3.8+
 -   Docker (per l'esecuzione tramite container)
 
-### Esecuzione Locale (tramite Maven)
+#### Esecuzione con Maven
 
 1.  Clona il repository:
     ```bash
     git clone https://github.com/glalganie/meteo-app-java.git
-    cd meteoapp
+    cd meteo-app-java
     ```
 
-2.  Esegui l'applicazione con il wrapper di Maven:
+2.  Esegui l'applicazione:
     ```bash
     ./mvnw spring-boot:run
     ```
 
 3.  Apri il browser e vai a `http://localhost:8080`.
 
-### Esecuzione tramite Docker
+#### Esecuzione con Docker
 
-1.  Clona il repository (se non l'hai già fatto).
-
-2.  Costruisci l'immagine Docker:
+1.  Costruisci l'immagine Docker:
     ```bash
     docker build -t meteo-app .
     ```
 
-3.  Esegui il container Docker:
+2.  Esegui il container:
     ```bash
     docker run -p 8080:8080 meteo-app
     ```
 
-4.  Apri il browser e vai a `http://localhost:8080`.
+3.  Apri il browser e vai a `http://localhost:8080`.
 
 ## 📖 Interpretazione dei Dati
 
