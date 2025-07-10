@@ -30,3 +30,9 @@ EXPOSE 8080
 
 # Comando per avviare l'applicazione quando il container parte
 ENTRYPOINT ["java", "-jar", "app.jar"]
+
+FROM eclipse-temurin:17-jdk
+WORKDIR /app
+COPY . .
+RUN ./mvnw clean package -DskipTests
+CMD ["java", "-jar", "target/*.jar"]
