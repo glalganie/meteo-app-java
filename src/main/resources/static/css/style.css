@@ -2,6 +2,10 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     background-color: #f4f7f6;
     background-image: url('https://ilbolive.unipd.it/sites/default/files/2022-05/n_meteo.jpg');
+
+background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Mantiene lo sfondo fisso durante lo scroll */
     
     color: #333;
     display: flex;
@@ -23,6 +27,8 @@ body {
 
 h1 {
     color: #0056b3;
+     /* Font più piccolo su mobile per non essere troppo invadente */
+    font-size: 1.8em;
 }
 
 .location-form {
@@ -45,7 +51,9 @@ h1 {
     margin-bottom: 20px;
     display: flex;
     justify-content: center;
-    gap: 10px;
+     gap: 8px; /* Meno spazio tra i bottoni su mobile */
+    /* QUESTA È LA MAGIA PER IL RESPONSIVE: se i bottoni non ci stanno, vanno a capo! */
+    flex-wrap: wrap;
 }
 
 .chart-controls button {
