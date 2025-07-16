@@ -81,3 +81,33 @@ h1 {
 .alert p {
     margin: 5px 0 0 0;
 }
+
+
+
+
+@media (min-width: 768px) {
+    body {
+        /* Ripristiniamo il padding maggiore per schermi più grandi */
+        padding: 20px;
+    }
+
+    .container {
+        /* Ripristiniamo il padding laterale più generoso */
+        padding: 20px 40px;
+    }
+
+    h1 {
+        /* Ripristiniamo la dimensione originale del titolo */
+        font-size: 2.2em;
+    }
+
+    .chart-controls {
+        /* Aumentiamo di nuovo lo spazio tra i bottoni */
+        gap: 10px;
+    }
+
+    .chart-controls button {
+        /* Ripristiniamo le dimensioni originali dei bottoni */
+        padding: 10px 20px;
+    }
+}
