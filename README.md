@@ -52,8 +52,8 @@ Questo progetto è pensato per essere eseguito con Docker, eliminando la necessi
 
 #### Prerequisiti
 
-L'unico prerequisito è avere **Docker e Docker Compose** installati sul tuo sistema.
-*   [Installa Docker Desktop](https://www.docker.com/products/docker-desktop/) (include già Docker Compose).
+L'unico prerequisito è avere **Docker e Docker Compose** 
+
 
 #### Istruzioni per l'Avvio
 
