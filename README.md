@@ -15,7 +15,8 @@ Applicazione web sviluppata in Java e Spring Boot per visualizzare i dati meteor
 ### ✨ Screenshot
 
 
- <img width="1171" height="977" alt="image" src="https://github.com/user-attachments/assets/339e6fa7-1851-4274-ba70-46bc84cc26c2" />
+![foto-meteo-app](https://github.com/user-attachments/assets/f7ff5118-e066-487e-aa1c-1f91ead85ac4)
+
 
 ---
 
